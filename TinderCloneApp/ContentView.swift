@@ -1,16 +1,11 @@
-//
-//  ContentView.swift
-//  TinderCloneApp
-//
-//  Created by matheus.evangelista on 02/02/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var appStateManager: AppStateManager = AppStateManager()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MainView()
+            .environmentObject(appStateManager)
     }
 }
 
