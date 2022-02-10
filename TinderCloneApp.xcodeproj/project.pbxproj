@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D06CAF327B4959800FAB053 /* ProfileButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06CAF227B4959700FAB053 /* ProfileButtonsView.swift */; };
+		6D06CAF527B4969400FAB053 /* ProfileTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06CAF427B4969400FAB053 /* ProfileTipView.swift */; };
+		6D06CAF727B4973E00FAB053 /* ProfileUserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06CAF627B4973E00FAB053 /* ProfileUserImageView.swift */; };
+		6D06CAFA27B497FD00FAB053 /* ProfileUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06CAF927B497FD00FAB053 /* ProfileUserInfoView.swift */; };
 		6D71847D27ABDCB30001B26D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71847C27ABDCB30001B26D /* Color+Extensions.swift */; };
 		6DC0671227AA8B5500796ADB /* TinderCloneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0671127AA8B5500796ADB /* TinderCloneAppApp.swift */; };
 		6DC0671427AA8B5500796ADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0671327AA8B5500796ADB /* ContentView.swift */; };
@@ -28,6 +32,10 @@
 		378EE657C2D30ECDCCD3DBDE /* Pods-TinderCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderCloneApp.debug.xcconfig"; path = "Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5481F00887DF391A3320907E /* Pods_TinderCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C093FC4E2872BFC9D3B745D /* Pods-TinderCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderCloneApp.release.xcconfig"; path = "Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp.release.xcconfig"; sourceTree = "<group>"; };
+		6D06CAF227B4959700FAB053 /* ProfileButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonsView.swift; sourceTree = "<group>"; };
+		6D06CAF427B4969400FAB053 /* ProfileTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTipView.swift; sourceTree = "<group>"; };
+		6D06CAF627B4973E00FAB053 /* ProfileUserImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserImageView.swift; sourceTree = "<group>"; };
+		6D06CAF927B497FD00FAB053 /* ProfileUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserInfoView.swift; sourceTree = "<group>"; };
 		6D71847C27ABDCB30001B26D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		6DC0670E27AA8B5500796ADB /* TinderCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC0671127AA8B5500796ADB /* TinderCloneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneAppApp.swift; sourceTree = "<group>"; };
@@ -130,6 +138,10 @@
 			children = (
 				6DC5982E27AB2D820061097A /* ProfileView.swift */,
 				6DD3606227AC4C7800C45039 /* ProfileSwipePromo.swift */,
+				6D06CAF227B4959700FAB053 /* ProfileButtonsView.swift */,
+				6D06CAF427B4969400FAB053 /* ProfileTipView.swift */,
+				6D06CAF627B4973E00FAB053 /* ProfileUserImageView.swift */,
+				6D06CAF927B497FD00FAB053 /* ProfileUserInfoView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -299,14 +311,18 @@
 			files = (
 				6DC5982F27AB2D820061097A /* ProfileView.swift in Sources */,
 				6DD3606327AC4C7800C45039 /* ProfileSwipePromo.swift in Sources */,
+				6D06CAF327B4959800FAB053 /* ProfileButtonsView.swift in Sources */,
 				6DC3E8AE27AAAD54006F4129 /* UIView+Extensions.swift in Sources */,
 				6DC0672327AA904900796ADB /* TabBarButtonView.swift in Sources */,
 				6DC5983127AB2DB60061097A /* RoundedImage.swift in Sources */,
 				6DC0671427AA8B5500796ADB /* ContentView.swift in Sources */,
+				6D06CAF727B4973E00FAB053 /* ProfileUserImageView.swift in Sources */,
 				6D71847D27ABDCB30001B26D /* Color+Extensions.swift in Sources */,
 				6DC0672127AA8F1200796ADB /* MainView.swift in Sources */,
 				6DC0671227AA8B5500796ADB /* TinderCloneAppApp.swift in Sources */,
 				6DC3E8AA27AAA9F4006F4129 /* AppStateManager.swift in Sources */,
+				6D06CAFA27B497FD00FAB053 /* ProfileUserInfoView.swift in Sources */,
+				6D06CAF527B4969400FAB053 /* ProfileTipView.swift in Sources */,
 				6DC3E8AC27AAAB74006F4129 /* TabBarButtonType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
