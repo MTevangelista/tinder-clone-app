@@ -47,13 +47,13 @@ struct MainView: View {
             let view = Text("fire")
             return AnyView(view)
         case .star:
-            let view = Text("fire")
+            let view = Text("star")
             return AnyView(view)
         case .message:
-            let view = Text("fire")
+            let view = Text("message")
             return AnyView(view)
         case .profile:
-            let view = Text("fire")
+            let view = ProfileView()
             return AnyView(view)
         }
     }

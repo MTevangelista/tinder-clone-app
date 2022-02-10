@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D71847D27ABDCB30001B26D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71847C27ABDCB30001B26D /* Color+Extensions.swift */; };
 		6DC0671227AA8B5500796ADB /* TinderCloneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0671127AA8B5500796ADB /* TinderCloneAppApp.swift */; };
 		6DC0671427AA8B5500796ADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0671327AA8B5500796ADB /* ContentView.swift */; };
 		6DC0671627AA8B5700796ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0671527AA8B5700796ADB /* Assets.xcassets */; };
@@ -16,9 +17,18 @@
 		6DC3E8AA27AAA9F4006F4129 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3E8A927AAA9F4006F4129 /* AppStateManager.swift */; };
 		6DC3E8AC27AAAB74006F4129 /* TabBarButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3E8AB27AAAB74006F4129 /* TabBarButtonType.swift */; };
 		6DC3E8AE27AAAD54006F4129 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3E8AD27AAAD54006F4129 /* UIView+Extensions.swift */; };
+		6DC5982F27AB2D820061097A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5982E27AB2D820061097A /* ProfileView.swift */; };
+		6DC5983127AB2DB60061097A /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5983027AB2DB60061097A /* RoundedImage.swift */; };
+		6DC5983427AB308A0061097A /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC5983327AB308A0061097A /* KingfisherSwiftUI */; };
+		6DD3606327AC4C7800C45039 /* ProfileSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3606227AC4C7800C45039 /* ProfileSwipePromo.swift */; };
+		CC8C8B596AE5EC0B4832C8D1 /* Pods_TinderCloneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5481F00887DF391A3320907E /* Pods_TinderCloneApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		378EE657C2D30ECDCCD3DBDE /* Pods-TinderCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderCloneApp.debug.xcconfig"; path = "Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5481F00887DF391A3320907E /* Pods_TinderCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C093FC4E2872BFC9D3B745D /* Pods-TinderCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderCloneApp.release.xcconfig"; path = "Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp.release.xcconfig"; sourceTree = "<group>"; };
+		6D71847C27ABDCB30001B26D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		6DC0670E27AA8B5500796ADB /* TinderCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC0671127AA8B5500796ADB /* TinderCloneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneAppApp.swift; sourceTree = "<group>"; };
 		6DC0671327AA8B5500796ADB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +40,9 @@
 		6DC3E8A927AAA9F4006F4129 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		6DC3E8AB27AAAB74006F4129 /* TabBarButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonType.swift; sourceTree = "<group>"; };
 		6DC3E8AD27AAAD54006F4129 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		6DC5982E27AB2D820061097A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6DC5983027AB2DB60061097A /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		6DD3606227AC4C7800C45039 /* ProfileSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwipePromo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +50,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC5983427AB308A0061097A /* KingfisherSwiftUI in Frameworks */,
+				CC8C8B596AE5EC0B4832C8D1 /* Pods_TinderCloneApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CE7D82A5DD875F58FC49323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				378EE657C2D30ECDCCD3DBDE /* Pods-TinderCloneApp.debug.xcconfig */,
+				5C093FC4E2872BFC9D3B745D /* Pods-TinderCloneApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6DC0670527AA8B5500796ADB = {
 			isa = PBXGroup;
 			children = (
 				6DC0671027AA8B5500796ADB /* TinderCloneApp */,
 				6DC0670F27AA8B5500796ADB /* Products */,
+				3CE7D82A5DD875F58FC49323 /* Pods */,
+				F1FAB959FB4F6C75CA497612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +88,8 @@
 		6DC0671027AA8B5500796ADB /* TinderCloneApp */ = {
 			isa = PBXGroup;
 			children = (
-				6DC0671127AA8B5500796ADB /* TinderCloneAppApp.swift */,
-				6DC0671327AA8B5500796ADB /* ContentView.swift */,
-				6DC3E8A927AAA9F4006F4129 /* AppStateManager.swift */,
-				6DC3E8AF27AAB67A006F4129 /* MainTabBar */,
-				6DC3E8AD27AAAD54006F4129 /* UIView+Extensions.swift */,
+				6DC5983627AB325A0061097A /* Commons */,
+				6DC5983527AB32430061097A /* Modules */,
 				6DC0671A27AA8B5700796ADB /* Info.plist */,
 				6DC0671527AA8B5700796ADB /* Assets.xcassets */,
 				6DC0671727AA8B5700796ADB /* Preview Content */,
@@ -92,6 +115,69 @@
 			path = MainTabBar;
 			sourceTree = "<group>";
 		};
+		6DC5982927AB2D460061097A /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0671127AA8B5500796ADB /* TinderCloneAppApp.swift */,
+				6DC0671327AA8B5500796ADB /* ContentView.swift */,
+				6DC3E8A927AAA9F4006F4129 /* AppStateManager.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		6DC5982A27AB2D510061097A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5982E27AB2D820061097A /* ProfileView.swift */,
+				6DD3606227AC4C7800C45039 /* ProfileSwipePromo.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6DC5983527AB32430061097A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5982927AB2D460061097A /* Aplication */,
+				6DC3E8AF27AAB67A006F4129 /* MainTabBar */,
+				6DC5982A27AB2D510061097A /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6DC5983627AB325A0061097A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5983727AB325F0061097A /* Components */,
+				6DC5983827AB32680061097A /* Extensions */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		6DC5983727AB325F0061097A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5983027AB2DB60061097A /* RoundedImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6DC5983827AB32680061097A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DC3E8AD27AAAD54006F4129 /* UIView+Extensions.swift */,
+				6D71847C27ABDCB30001B26D /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1FAB959FB4F6C75CA497612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5481F00887DF391A3320907E /* Pods_TinderCloneApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,15 +185,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC0671D27AA8B5700796ADB /* Build configuration list for PBXNativeTarget "TinderCloneApp" */;
 			buildPhases = (
+				4EF8B8D7D13502C1CD072877 /* [CP] Check Pods Manifest.lock */,
 				6DC0670A27AA8B5500796ADB /* Sources */,
 				6DC0670B27AA8B5500796ADB /* Frameworks */,
 				6DC0670C27AA8B5500796ADB /* Resources */,
+				6625F754E5037EDD56AD425D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TinderCloneApp;
+			packageProductDependencies = (
+				6DC5983327AB308A0061097A /* KingfisherSwiftUI */,
+			);
 			productName = TinderCloneApp;
 			productReference = 6DC0670E27AA8B5500796ADB /* TinderCloneApp.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 6DC0670527AA8B5500796ADB;
+			packageReferences = (
+				6DC5983227AB308A0061097A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 6DC0670F27AA8B5500796ADB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,14 +250,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EF8B8D7D13502C1CD072877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinderCloneApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6625F754E5037EDD56AD425D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinderCloneApp/Pods-TinderCloneApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DC0670A27AA8B5500796ADB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC5982F27AB2D820061097A /* ProfileView.swift in Sources */,
+				6DD3606327AC4C7800C45039 /* ProfileSwipePromo.swift in Sources */,
 				6DC3E8AE27AAAD54006F4129 /* UIView+Extensions.swift in Sources */,
 				6DC0672327AA904900796ADB /* TabBarButtonView.swift in Sources */,
+				6DC5983127AB2DB60061097A /* RoundedImage.swift in Sources */,
 				6DC0671427AA8B5500796ADB /* ContentView.swift in Sources */,
+				6D71847D27ABDCB30001B26D /* Color+Extensions.swift in Sources */,
 				6DC0672127AA8F1200796ADB /* MainView.swift in Sources */,
 				6DC0671227AA8B5500796ADB /* TinderCloneAppApp.swift in Sources */,
 				6DC3E8AA27AAA9F4006F4129 /* AppStateManager.swift in Sources */,
@@ -292,6 +432,7 @@
 		};
 		6DC0671E27AA8B5700796ADB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378EE657C2D30ECDCCD3DBDE /* Pods-TinderCloneApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +455,7 @@
 		};
 		6DC0671F27AA8B5700796ADB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C093FC4E2872BFC9D3B745D /* Pods-TinderCloneApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +498,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DC5983227AB308A0061097A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.15.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DC5983327AB308A0061097A /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC5983227AB308A0061097A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DC0670627AA8B5500796ADB /* Project object */;
 }
